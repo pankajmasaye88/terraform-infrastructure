@@ -3,11 +3,11 @@ variable "aws_region" {
 }
 
 variable "key_pair_name" {
-  default = "alex-key"
+  default = "docker-java.pem"
 }
 
 variable "public_key_path" {
-  default = "C:/Users/User/.ssh/id_ed25519.pub"
+  default = /home/ubuntu/"
 }
 
 variable "instance_type" {
