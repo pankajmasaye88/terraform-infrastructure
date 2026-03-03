@@ -1,6 +1,6 @@
-resource "aws_security_group" "alex_sg" {
+resource "aws_security_group" "pankaj_sg" {
   vpc_id = var.vpc_id
-  name   = "alex-sg"
+  name   = "pankaj-sg"
 
   ingress {
     from_port   = 22
@@ -17,6 +17,6 @@ resource "aws_security_group" "alex_sg" {
   }
 
   tags = {
-    Name = "alex-sg"
+    Name = "pankaj-sg"
   }
 }
